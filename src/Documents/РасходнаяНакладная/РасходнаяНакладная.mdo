@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8acd9980-9c73-4396-9358-bac54e2311dd" extendedConfigurationObject="91b76afc-5d36-41da-8ff3-95f8e80df723">
+  <producedTypes>
+    <objectType typeId="77fec5a2-f210-4aac-8740-2957696745b5" valueTypeId="22623c0b-c60f-4afe-b26b-1313615da5cb"/>
+    <refType typeId="0e111f9a-70e4-4da1-a6b6-b5905fdb0b1e" valueTypeId="70cbc937-af7f-4f76-bf27-2440acdd4626"/>
+    <selectionType typeId="e497815b-3e25-4fda-a80a-4ac5882c0d41" valueTypeId="ebdece86-894a-4796-be13-2adcde56cabc"/>
+    <listType typeId="c25b48bb-903c-4479-9aaf-9ed8b592ba8d" valueTypeId="3acd5e9b-c8bb-4a59-bacb-0368de8b12dd"/>
+    <managerType typeId="6561a4c5-cc43-43de-8c0c-e5784889bf9f" valueTypeId="3d4e874a-4963-4941-aba6-5d2d6b5f0e01"/>
+  </producedTypes>
+  <name>РасходнаяНакладная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="5af9ed71-e9c1-47b9-af57-e335f586f2b5" extendedConfigurationObject="0bc97f2c-3538-4529-9f01-efee16bfbb1e">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Склады</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="a2cbbc04-04ac-48ea-a933-9a31c9d3d884" extendedConfigurationObject="2fef026c-5551-4ac3-ae33-885960ee1b2e">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

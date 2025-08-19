@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="29d707d6-72a0-44f4-bcac-67c686474783" extendedConfigurationObject="3a481469-d431-4486-ab67-5942019bba64">
+  <producedTypes>
+    <objectType typeId="a447da99-22ee-4b17-aded-56453cbb7368" valueTypeId="2fe5a5c3-4fd7-4300-9770-6cc443c3ae6e"/>
+    <refType typeId="bc1f9739-33da-4f4c-ad44-3589c52ee956" valueTypeId="876fe3b6-8eee-405c-bbc6-8d2ad0f7c37b"/>
+    <selectionType typeId="78e7ef9c-4415-4776-bb94-9151b09da2eb" valueTypeId="4c384c6c-d0ea-4bca-a604-2f0390fcb323"/>
+    <listType typeId="bfa52e59-245b-44ab-9e30-388250466767" valueTypeId="d32b810e-ebc4-4131-ab6f-8bc2313277aa"/>
+    <managerType typeId="577b4b51-f1e1-4b9d-b366-82b2c96542b4" valueTypeId="6e24e31b-2239-4a95-be51-f96eb8c22f10"/>
+  </producedTypes>
+  <name>ПриходнаяНакладная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <forms uuid="96cf33cd-7030-4f58-8a51-87623735cc3e" extendedConfigurationObject="a2d255eb-88e2-4c11-9459-de1cae0b90da">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>
